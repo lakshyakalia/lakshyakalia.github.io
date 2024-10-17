@@ -167,7 +167,7 @@ a:link, a:visited, a:link:active, a:visited:active{
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;
     /* background-blend-mode: overlay; */
-    opacity: 0.7;
+    opacity: 0.8;
     animation-name: prof-pic;
     animation-duration: 0.7s;
     left: -70px; top: 40px;
