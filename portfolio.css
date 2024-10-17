@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  /* font-size: 14px; */
+  font-weight: 300;
+  font-style: normal;
+  
+  /* overflow: hidden; */
+}
+body{
+    background-color: #F9F1F0;
+    font-size: 14px;
+}
+.bg-light-pink{
+    background-color: #FADCD9;
+    padding: 10px;
+    /* border: 1px solid #f8d4d1; */
+}
+.portfolio-name{
+    font-size: 20px;
+}
+.card{
+    border-radius: 10px;
+    /* animation-name: prof-fade; */
+  /* animation-duration: 1.5s; */
+  /* animation-delay: 0.6s; */
+  /* opacity: 0; */
+  /* animation-fill-mode: forwards; */
+
+}
+.container{
+    margin: 10px;
+}
+
+.container-body{
+    /* height: 100%; */
+}
+
+.flex-box{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: stretch;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.portfolio-header{
+    /* height: 7%; */
+    height: 60px;
+    /* animation: prof-header 2s forwards; */
+    /* animation-duration: 1s; */
+    /* animation-delay: 2s; */
+    /* transform: translateX(-50%); */
+    /* width: 0; */
+    /* margin-bottom: 10px; */
+}
+.portfolio-header > div, .middle-v{
+    display: table;
+}
+
+.portfolio-header > div > span, .middle-v-child{
+    display: table-cell;
+    vertical-align: middle;
+}
+.portfolio-body{
+    /* height: 95%; */
+}
+.portfolio-body > div:nth-child(1){
+    flex: 2.5;
+}
+.portfolio-desc{
+    flex: 2;
+    font-size: 40px;
+    /* font-weight: 400; */
+    display: table;
+}
+.portfolio-desc > span{
+    display: table-cell;
+    vertical-align: bottom;
+    padding-bottom: 70px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.portfolio-body > div:nth-child(1) > div:nth-child(1){
+    height: 400px;
+}
+.portfolio-body > div:nth-child(1) > div:nth-child(2){
+    /* height: 30%; */
+}
+.portfolio-body > div:nth-child(2), .portfolio-pic{
+    flex: 1;
+}
+.space-btw{
+    justify-content: space-between;
+}
+
+.font-bold{
+    font-weight: 500;
+}
+i{
+    font-style: italic;
+}
+.portfolio-header > div:nth-child(2) > span{
+    padding-right: 20px;
+}
+
+.portfolio-header > div:nth-child(1) > span{
+    padding-left: 10px;
+}
+.flex-dir-col{
+    flex-direction: column;
+}
+
+.portfolio-bottom > div{
+    flex: 1;
+}
+.bg-contact{
+    background-color: #F8AFA6;
+    /* padding: 10px; */
+}
+.bg-contact-container{
+    /* display: table; */
+    margin-top: 80px;
+    padding: 10px;
+}
+.contact-text{
+    /* display: table-cell; */
+    /* vertical-align: bottom; */
+    font-size: 40px;
+    font-weight: 500;
+}
+.about{
+    display: table;
+}
+.port-about{
+    /* font-size: 16px; */
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 10px;
+}
+.port-right > div:nth-child(1){
+    flex: 3;
+}
+.port-right > div:nth-child(2){
+    flex: 0.5;
+}
+.social{
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    transition-duration: 0.27s;
+    cursor: pointer;
+}
+a:hover{
+    font-weight: 500;
+    transition-duration: 0.27s;
+}
+a:link, a:visited, a:link:active, a:visited:active{
+    color: black;
+}
+.portfolio-pic{
+    /* width: 300px;
+    height: 200px; */
+    background-image: url('assets/port-pic\ copy.jpg'), linear-gradient(rgba(245, 188, 181, 0.1), rgba(17, 11, 11, 0.1));
+    background-size: cover; /* Adjusts the image to cover the div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    /* background-blend-mode: overlay; */
+    opacity: 0.7;
+    animation-name: prof-pic;
+    animation-duration: 0.7s;
+    left: -70px; top: 40px;
+    animation-fill-mode: forwards;
+  animation-delay: 0s;
+  position: relative;
+}
+.fade{
+    animation: fade-up 0.5s forwards;
+    animation-delay: 0.44s;
+    opacity: 0;
+}
+/* 
+@keyframes prof-fade {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+} */
+
+
+@keyframes prof-pic{
+    0% {left: -70px; top: 40px;}
+    25% {left: -70px; top: 40px;}
+    /* 50% {left: -150px; top: 60px;} */
+    100% {left: 0px; top: 0px;}
+}
+
+@keyframes fade-up {
+        0%{
+            opacity: 0;
+            transform: translateY(-30px) scale(0.6);
+        }
+        /* 25%{
+            opacity: 0;
+            transform: translateY(-30px) scale(0.66);
+        }
+        50%{
+            opacity: 0;
+            transform: translateY(-30px) scale(0.8);
+        } */
+        100%{
+            opacity: 1;
+            transform: translateY(0px) scale(1);
+        }
+}
