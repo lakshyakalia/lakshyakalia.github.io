@@ -1,0 +1,14 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+.flex{
+    display: flex;
+}
+
+.flex div:nth-child(1){
+    flex: 1;
+}
+
+.flex div:nth-child(2){
+    flex: 2.5;
+}
