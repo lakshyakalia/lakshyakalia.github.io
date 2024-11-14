@@ -1,14 +1,31 @@
 *{
-    font-family: "Montserrat", sans-serif;
+    font-family: Butler;
+    margin: 0;
 }
+
 .flex{
     display: flex;
 }
 
 .flex div:nth-child(1){
-    flex: 1;
+    // flex: 1;
+    flex: 0.5 0 200px;
 }
 
 .flex div:nth-child(2){
     flex: 2.5;
+    overflow-y: auto;
+    scrollbar-width: none;
 }
+
+.flex div:nth-child(2)::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Edge */
+  }
+
+.container{
+    // padding: 20px;
+    // margin-top: 20px;
+    height: 100vh;
+    
+}
+

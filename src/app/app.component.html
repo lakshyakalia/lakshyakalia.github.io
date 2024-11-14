@@ -1,19 +1,10 @@
-<html>
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="flex">
-      <div>
-        <app-nav-sidebar></app-nav-sidebar>
-      </div>
-      <div>
-        <router-outlet></router-outlet>
-      </div>
-    </div>
-  </body>
-</html>
+<div class="flex container">
+  <div class="left-nav">
+    <app-nav-sidebar></app-nav-sidebar>
+  </div>
+  <div class="right-scroll">
+    <router-outlet></router-outlet>
+  </div>
+</div>
 
 <!-- <app-portfolio-content></app-portfolio-content> -->

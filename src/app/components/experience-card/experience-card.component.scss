@@ -1,0 +1,38 @@
+
+.flex{
+    display: flex;
+}
+.flex div:nth-child(1){
+    flex: 1;
+}
+.flex div:nth-child(2){
+    flex: 2;
+}
+.card-container{
+    padding: 14px;
+    width: 70%;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+}
+.card-container:hover{
+    transform: translateY(-5px); /* Slight lift */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+//   color: #007BFF;  /* Change text color on hover (Blue in this case) */
+//   text-shadow: 0 2px 8px rgba(0, 123, 255, 0.5); /* Text shadow for glowing effect */
+  transform: translateY(-8px) scale(1.05);
+  cursor: context-menu;
+}
+.experience-date{
+    font-size: 12px;
+    text-align: center;
+    border-radius: 8px;
+}
+.experience-title{
+    font-size: 18px;
+}
+.experience-content div{
+    margin-bottom: 14px;
+}
