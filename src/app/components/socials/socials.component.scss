@@ -1,0 +1,38 @@
+.icon{
+    
+    // background: white;
+    border-radius: 50%;
+    transition-duration: 0.4s;
+    font-size: 24px;
+    // margin-right: 14px;
+    color: rgb(0, 0, 0, 0.6);
+    // border: 1px solid white;
+}
+.social > div{
+    // padding: 9px;
+    margin-right: 24px;
+}
+.icon:hover{
+    /* font-size: 32px; */
+    color: black;
+    transition-duration: 0.4s;
+}
+.bg-contact-container:hover .fa-caret-right{
+    /* transition-duration: 0.5s; */
+    /* margin-left: 4px; */
+}
+
+// .fa-linkedin-in:hover{
+//     color: white;
+//     background-color: #0077b5;
+// }
+
+// .fa-instagram:hover{
+//     color: #E4405F;
+// }
+.flex-box{
+    display: flex;
+    // position: absolute;
+    // bottom: 20px;
+    margin-top: 120%;
+}

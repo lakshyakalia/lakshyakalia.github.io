@@ -7,9 +7,9 @@
             <div>
                 {{ name }}
             </div>
-            <div>
+            <!-- <div>
                 {{ email }}
-            </div>
+            </div> -->
             <div>
                 {{ desc }}
             </div>
@@ -21,6 +21,16 @@
         </div>
     <!-- </div> -->
     <div class="experience" *ngFor="let experience of experiences">
+        <div class="down-arrow">↓</div>
         <app-experience-card></app-experience-card>
     </div>
+    <!-- <hr class="sep-3" /> -->
+    <div class="heading">
+        SKILLS
+    </div>
+<!-- </div> -->
+<div class="experience">
+    <div class="down-arrow">↓</div>
+    <app-skill-card></app-skill-card>
+</div>
 </div>

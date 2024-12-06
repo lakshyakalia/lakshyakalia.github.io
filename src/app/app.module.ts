@@ -9,6 +9,9 @@ import { ProjectNavLinksComponent } from './components/project-nav-links/project
 import { PortfolioHeadingSectionComponent } from './components/portfolio-heading-section/portfolio-heading-section.component';
 import { AboutComponent } from './components/about/about.component';
 import { ExperienceCardComponent } from './components/experience-card/experience-card.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { SkillCardComponent } from './components/skill-card/skill-card.component';
+import { SocialsComponent } from './components/socials/socials.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ExperienceCardComponent } from './components/experience-card/experience
     ProjectNavLinksComponent,
     PortfolioHeadingSectionComponent,
     AboutComponent,
-    ExperienceCardComponent
+    ExperienceCardComponent,
+    SkillsComponent,
+    SkillCardComponent,
+    SocialsComponent
   ],
   imports: [
     BrowserModule,

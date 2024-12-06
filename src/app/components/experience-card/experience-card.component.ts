@@ -7,4 +7,22 @@ import { Component } from '@angular/core';
 })
 export class ExperienceCardComponent {
 
+  skills: any = [{
+    skillName: 'HTML'
+  },
+  {
+    skillName: 'CSS'
+  },
+  {
+    skillName: 'jQuery'
+  },
+  {
+    skillName: 'JavaScript'
+  },
+  {
+    skillName: 'TypeScript'
+  },
+  {
+    skillName: 'Node.js'
+  }]
 }

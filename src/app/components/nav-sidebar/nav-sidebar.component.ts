@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class NavSidebarComponent {
 
-  name:string = 'Lakshya Kalia';
+  name:string = 'LK';
 }
