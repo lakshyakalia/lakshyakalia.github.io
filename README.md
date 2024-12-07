@@ -34,4 +34,4 @@ Feel free to fork the repository and create a pull request if you'd like to cont
 
 ## Contact
 
-You can contact me via email: [your-email@example.com](mailto:lakshyakalia1998@gmail.com) 📧
+You can contact me via email: [lakshyakalia1998@gmail.com](mailto:lakshyakalia1998@gmail.com) 📧
