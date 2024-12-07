@@ -1,27 +1,37 @@
-# PortfolioWebsite
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+# Personal Portfolio Website
 
-## Development server
+Welcome to my personal portfolio website!🎉 
+This project showcases my skills, experience, and some of the cool projects I've worked on. It's built using **Angular** for a fast and responsive user interface. 🚀
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- **Responsive Design** 📱💻: The website is fully responsive and looks great on desktops, tablets, and mobile devices.
+- **Project Showcases** 🛠️: View my projects, including the technologies used and their descriptions.
+- **Contact Me** ✉️: Reach out to me directly via social links or email.
+- **About Me** 👨‍💻: Learn more about my background and the technologies I'm passionate about.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used
 
-## Build
+- **Angular**: For building the dynamic, single-page application (SPA).
+- **TypeScript**: For type-safe and efficient JavaScript development.
+- **HTML & CSS**: For structuring and styling the website.
+- **Bootstrap**: For quick and responsive UI design.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Demo
 
-## Running unit tests
+Check out the live demo of the website here:  
+[Portfolio Website Demo](https://lakshyakalia.github.io/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Features to be Added
 
-## Running end-to-end tests
+- 🌙 Dark mode support.
+- 📝 Blog section with posts and updates.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Contributing
 
-## Further help
+Feel free to fork the repository and create a pull request if you'd like to contribute to the project. 🙌
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contact
+
+You can contact me via email: [your-email@example.com](mailto:lakshyakalia1998@gmail.com) 📧
