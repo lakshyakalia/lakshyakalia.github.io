@@ -1,0 +1,29 @@
+.container{
+    justify-content: center;
+    display: flex;
+}
+
+.contact-text-div{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.contact-text{
+    color: #000;
+    margin-bottom: 10px;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    font-size: 3.8vw;
+    font-weight: 300;
+    line-height: 5vw;
+}
+
+.contact-link-footer{
+    color: #996;
+    text-decoration: none;
+    transition: font-variation-settings .3s cubic-bezier(.47, 0, .745, .715);
+}
+.contact-link-footer:hover{
+    text-decoration: underline;
+}
