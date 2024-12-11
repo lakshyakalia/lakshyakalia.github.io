@@ -4,6 +4,8 @@
 Welcome to my personal portfolio website!🎉 
 This project showcases my skills, experience, and some of the cool projects I've worked on. It's built using **Angular** for a fast and responsive user interface. 🚀
 
+![Portfolio Website Screenshot](image.png)
+
 ## Features
 
 - **Responsive Design** 📱💻: The website is fully responsive and looks great on desktops, tablets, and mobile devices.
@@ -17,10 +19,6 @@ This project showcases my skills, experience, and some of the cool projects I've
 - **TypeScript**: For type-safe and efficient JavaScript development.
 - **HTML & CSS**: For structuring and styling the website.
 - **Bootstrap**: For quick and responsive UI design.
-
-## Screenshot
-
-![Portfolio Website Screenshot](image.png)
 
 ## Demo
 
