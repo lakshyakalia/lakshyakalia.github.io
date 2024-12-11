@@ -3,14 +3,14 @@
     // background: white;
     border-radius: 50%;
     transition-duration: 0.4s;
-    font-size: 24px;
+    font-size: 18px;
     // margin-right: 14px;
     color: rgb(0, 0, 0, 0.6);
     // border: 1px solid white;
 }
 .social > div{
     // padding: 9px;
-    margin-right: 24px;
+    margin: 14px;
 }
 .icon:hover{
     /* font-size: 32px; */
@@ -34,5 +34,8 @@
     display: flex;
     // position: absolute;
     // bottom: 20px;
-    margin-top: 120%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 280px;
 }
