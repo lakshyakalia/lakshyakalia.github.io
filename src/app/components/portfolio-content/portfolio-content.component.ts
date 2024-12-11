@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class PortfolioContentComponent {
 
+  onScrollClick(){
+    document.getElementById("scroll")?.scrollIntoView({behavior: "smooth"});
+    console.log("asdas")
+  }
 }
