@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
 })
 export class NavSidebarComponent {
 
-  name:string = 'LK';
+  name:string = 'Lakshya Kalia';
+
+  ngOnInit(){
+    this.name = this.name.toLocaleUpperCase();
+  }
 }
