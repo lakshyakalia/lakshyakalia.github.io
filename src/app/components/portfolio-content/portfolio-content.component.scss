@@ -14,3 +14,40 @@
         height: 729px;
     }
 }
+.quote-container{
+    color: #fff;
+    background-image: linear-gradient(#fbb052, #fbb052);
+    padding: 45px 6%
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 100%;
+    background-color: transparent;
+    padding-right: 0;
+    position: relative;
+}
+
+.quote{
+    max-width: 1200px;
+    flex: 1;
+    font-family: Droid Sans, sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+
+.quote-wrapper{
+    width: 66.6%;
+    align-items: flex-start;
+    margin-left: 8.33%;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+
+    img{
+        width: 30px;
+        margin-top: 6px;
+        margin-right: 48px;
+    }
+}
