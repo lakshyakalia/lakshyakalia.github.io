@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class PortfolioHeadingSectionComponent {
 
-  heading: string = 'I develop user experiences for people like you.'
+  heading: string = `Hello, I'm Lakshya`
 
   ngOnInit(){
     this.heading = this.heading.toLocaleUpperCase();

@@ -1,0 +1,16 @@
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex :nth-child(1){
+    flex: 3.5;
+}
+.flex :nth-child(2){
+    flex: 2.5;
+}
+.lakshya-img{
+    img{
+        width: 100%;
+        height: 729px;
+    }
+}
