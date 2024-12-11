@@ -12,6 +12,7 @@ import { ExperienceCardComponent } from './components/experience-card/experience
 import { SkillsComponent } from './components/skills/skills.component';
 import { SkillCardComponent } from './components/skill-card/skill-card.component';
 import { SocialsComponent } from './components/socials/socials.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SocialsComponent } from './components/socials/socials.component';
     ExperienceCardComponent,
     SkillsComponent,
     SkillCardComponent,
-    SocialsComponent
+    SocialsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
