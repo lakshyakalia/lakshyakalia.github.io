@@ -18,6 +18,10 @@ This project showcases my skills, experience, and some of the cool projects I've
 - **HTML & CSS**: For structuring and styling the website.
 - **Bootstrap**: For quick and responsive UI design.
 
+## Screenshot
+
+![Portfolio Website Screenshot](image.png)
+
 ## Demo
 
 Check out the live demo of the website here:  
