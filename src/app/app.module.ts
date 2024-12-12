@@ -15,6 +15,8 @@ import { SocialsComponent } from './components/socials/socials.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { AboutSectionComponent } from './components/about-section/about-section.component';
+import { ExperienceSectionComponent } from './components/experience-section/experience-section.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { ContactComponent } from './components/contact/contact.component';
     SocialsComponent,
     FooterComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    AboutSectionComponent,
+    ExperienceSectionComponent
   ],
   imports: [
     BrowserModule,
