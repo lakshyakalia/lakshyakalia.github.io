@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AboutSectionComponent {
 
+  onScrollDown(){
+    document.getElementById("experience")?.scrollIntoView({behavior: "smooth"});
+    // console.log("asdas")
+  }
 }

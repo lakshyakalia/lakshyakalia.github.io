@@ -44,3 +44,21 @@
     font-family: Droid Sans, sans-serif;
     width: 75%;
 }
+
+.hero-scroll-button{
+    z-index: 1;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #faaf52;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    // rotate: 180deg;
+    // right: 0px;
+    right: 32px;
+    cursor: pointer;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
+}
