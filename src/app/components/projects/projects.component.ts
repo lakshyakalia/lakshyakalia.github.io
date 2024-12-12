@@ -28,7 +28,7 @@ export class ProjectsComponent {
       'title': 'Dealmart - An Ecommerce Website',
       'desc': 'Dealmart is a feature-rich eCommerce website designed to deliver a seamless shopping experience. Built with a focus on scalability and performance, it incorporates a responsive UI, ensuring smooth navigation across devices. The platform supports secure user authentication, real-time product search, and dynamic cart management. With efficient back-end integration, it enables streamlined order processing, payment gateway support, and inventory tracking. Dealmart emphasizes modern development practices, leveraging clean architecture, reusable components, and API-driven workflows to ensure maintainability and performance optimization. This project highlights expertise in full-stack development, API integration, and user-centric design.',
       'img': 'https://raw.githubusercontent.com/lakshyakalia/dealmart/refs/heads/main/assets/dealmart.png',
-      'code': '#',
+      'code': 'https://github.com/lakshyakalia/dealmart',
       'demo': '#',
       'order': 3
     }
