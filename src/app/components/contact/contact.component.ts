@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
 
+  onScrollUp(){
+    document.getElementById("top")?.scrollIntoView({behavior: "smooth"});
+    // console.log("asdas")
+  }
 }

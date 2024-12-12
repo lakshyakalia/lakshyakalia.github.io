@@ -1,6 +1,7 @@
 .container{
     justify-content: center;
     display: flex;
+    position: relative;
 }
 
 .contact-text-div{
@@ -26,4 +27,22 @@
 }
 .contact-link-footer:hover{
     text-decoration: underline;
+}
+
+.hero-scroll-button{
+    z-index: 1;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #faaf52;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    bottom: -72px;
+    rotate: 180deg;
+    // right: 0px;
+    right: 32px;
+    cursor: pointer;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
 }
