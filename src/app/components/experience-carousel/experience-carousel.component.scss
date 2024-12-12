@@ -1,0 +1,21 @@
+*{
+    font-family: Ubuntu, Helvetica, sans-serif;
+}
+.experience-header{
+    color: #ffffffc2;
+    // cursor: pointer;
+    font-size: 18px;
+    border-top: 1px solid #0000;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    display: flex;
+}
+.experience-desc{
+    color: #ffffff80;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}

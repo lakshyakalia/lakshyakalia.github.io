@@ -1,0 +1,15 @@
+<div class="experience-container">
+    <div *ngFor="let experience of experiences">
+        <div>
+            <div class="experience-header">
+                <span><span>{{experience.companyName}} </span>•<span> {{experience.role}}, </span><span>{{experience.year}}</span></span>
+            </div>
+            <div class="experience-desc">
+                <p [innerHTML]="convertNewLinesToBreaks(experience.desc)"></p>
+            </div>
+        </div>
+        <div>
+            
+        </div>
+    </div>
+</div>
