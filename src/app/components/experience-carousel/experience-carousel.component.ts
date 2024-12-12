@@ -12,7 +12,7 @@ export class ExperienceCarouselComponent {
       "companyName": "CG Infinity Pvt. Ltd.",
       "role": "Full Stack Developer (Consultant 2)",
       "year": "2022",
-      "desc":"Engineered a single-page Angular application, optimizing performance by 40% and enhancing user interactions through streamlined architecture and dynamic UI components."
+      "desc":"Engineered a single-page Angular application, optimizing performance and enhancing user interactions through streamlined architecture and dynamic UI components."
     },
     {
       "companyName": "CG Infinity Pvt. Ltd.",
