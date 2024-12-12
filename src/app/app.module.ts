@@ -18,6 +18,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { AboutSectionComponent } from './components/about-section/about-section.component';
 import { ExperienceSectionComponent } from './components/experience-section/experience-section.component';
 import { ExperienceCarouselComponent } from './components/experience-carousel/experience-carousel.component';
+import { AboutImagesComponent } from './components/about-images/about-images.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ExperienceCarouselComponent } from './components/experience-carousel/ex
     ContactComponent,
     AboutSectionComponent,
     ExperienceSectionComponent,
-    ExperienceCarouselComponent
+    ExperienceCarouselComponent,
+    AboutImagesComponent
   ],
   imports: [
     BrowserModule,
