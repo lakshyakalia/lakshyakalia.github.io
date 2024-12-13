@@ -1,8 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
-body{
+/* Default light theme styles */
+body {
     margin: 0;
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; /* Light background */
+    color: black; /* Light text color */
 }
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;  /* Dark background */
+    color: white;                /* Light text color */
+}
+
+/* You can further customize individual elements for dark mode */
+body.dark-mode .sidebar-text {
+    color: #ddd; /* Lighter text for sidebar */
+}
+
+body.dark-mode .title {
+    color: #fff; /* Lighter title text */
+}
+
+/* For other components or elements, add additional dark mode styles as needed */
+
 html {
     scroll-behavior: smooth;
   }
+
+/* Dark Mode Styles */
+
+body.dark-mode .about-nav a {
+    color: white !important;  /* Ensure the link text is white */
+  }
+
+body.dark-mode .heading {
+    color: white !important;  /* Ensure the heading text is white */
+}
+
+body.dark-mode .sub-heading {
+    color: #ccc !important;  /* Lighter color for the sub-heading in dark mode */
+}
+
+body.dark-mode .container {
+    background-color: #121212 !important;  /* Change background to dark in dark mode */
+}
+
+body.dark-mode .container .contact-text-div .contact-text {
+    color: white !important;  /* Ensures the text inside the contact section is white */
+}
+  
+body.dark-mode .container .contact-text-div .contact-link-footer {
+    color: white !important;  /* Ensures the email link text is white */
+}
+
+body.dark-mode .flex-box.social .icon {
+    color: white !important;  /* Makes all icons white in dark mode */
+}
+
+body.dark-mode .project-heading{
+    color: white !important;
+}
+
+body.dark-mode .project-sub-heading{
+    color: white !important;
+}
