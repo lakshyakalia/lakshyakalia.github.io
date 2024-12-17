@@ -8,12 +8,12 @@
     line-height: 20px;
 }
 .nav-links{
-    margin-top: 50px;
+    margin-top: 70px;
     // margin-bottom: 20px;
 }
 .nav-links div{
     margin-top: 10px;
-    font-size: 22px;
+    // font-size: 22px;
 }
 
 hr{
@@ -50,7 +50,7 @@ hr{
 }
 .sidebar-text{
     transform: rotate(-90deg);
-    margin-top: 250px;
+    margin-top: 130px;
 }
 img{
     width: 45px;
@@ -125,3 +125,28 @@ img{
   .rs{
     margin-top: 80px;
   }
+
+  .about-nav{
+    z-index: 1;
+    // width: 64px;
+    // height: 6px;
+    // background-color: #faaf52;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    position: relative  ;
+
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: capitalize;
+    a{
+        color: #1a1b1f;
+    }
+    
+}
+a:active{
+    color: #1a1b1f;
+}
+a:visited{
+    color: #1a1b1f;
+}

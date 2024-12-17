@@ -53,30 +53,4 @@ hr{
         width: 300px;
     }
 }
-.about-nav{
-    z-index: 1;
-    // width: 64px;
-    height: 64px;
-    // background-color: #faaf52;
-    justify-content: center;
-    align-items: center;
-    // display: flex;
-    position: relative  ;
-    // bottom: 32px;
-    // left: -32px;
-    // box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
-    font-weight: 300;
-    font-size: 20px;
-    text-transform: capitalize;
-    a{
-        color: #1a1b1f;
-    }
-    
-}
-a:active{
-    color: #1a1b1f;
-}
-a:visited{
-    color: #1a1b1f;
-}
 
