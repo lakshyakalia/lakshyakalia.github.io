@@ -19,8 +19,8 @@
                     <a href="{{project.code}}" target="_blank">
                         Code↗︎
                     </a>
-                    <span style="color: #777777;">&nbsp; | &nbsp;</span>
-                    <a href="{{project.demo}}" target="_blank">
+                    <span *ngIf="project.demo" style="color: #777777;">&nbsp; | &nbsp;</span>
+                    <a *ngIf="project.demo" href="{{project.demo}}" target="_blank">
                         Demo↗︎
                     </a>
                 </div>
